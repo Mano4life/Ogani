@@ -529,7 +529,37 @@ header .nav .cart span {
 
 /* ========== end hero ========== */
 /* ========== start categories ========== */
+.categories .categorie-item {
+	height: 270px;
+	position: relative;
+}
 
+.categorie-body {
+	width: 100%;
+	height: 100%;
+}
+
+.categories .categorie-item h5{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	padding: 12px 20px;
+	bottom: 20px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.categories .categorie-item h5 a {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
 
 
 /* ========== end categories ========== */
+/* ========== featured products start ========== */
+.featured-products {
+	padding: 70px 0 40px;
+}
+/* ========== featured products end ========== */
