@@ -563,3 +563,31 @@ header .nav .cart span {
   background-position: center center;
 }
 /* ========== featured products end ========== */
+
+.latest-product-header {
+  margin-bottom: 40px;
+}
+
+.latest-product-header h4 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.latest-product-header i {
+  height: 30px;
+  width: 30px;
+  background: #f3f6fa;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  color: #636363;
+  margin-right: 10px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.latest-product-item {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
