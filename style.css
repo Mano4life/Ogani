@@ -563,6 +563,9 @@ header .nav .cart span {
   background-position: center center;
 }
 /* ========== featured products end ========== */
+.latest-products {
+  padding-bottom: 30px;
+}
 
 .latest-product-header {
   margin-bottom: 40px;
@@ -591,3 +594,24 @@ header .nav .cart span {
 	align-items: center;
 	gap: 2rem;
 }
+
+/* ========== blog section start ========== */
+.blog-section {
+  padding: 50px 0;
+  padding-top: 0;
+}
+
+.blog-item-text ul li {
+  color: #b2b2b2;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+@media (max-width: 767px) {
+  .blog-item {
+    margin-bottom: 20px
+  }
+}
+
+/* ========== blog section end ========== */
